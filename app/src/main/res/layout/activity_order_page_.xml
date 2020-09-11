@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Signin_Activity"
+    tools:openDrawer="start">
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/header_file"
+        app:menu="@menu/main_menu"
+        android:layout_gravity="start">
+    </com.google.android.material.navigation.NavigationView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3sp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="60dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/back_image">
+
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="cursive"
+
+                    android:gravity="center"
+                    android:text="Make a choice !"
+                    android:textColor="#332208"
+                    android:textSize="50sp"
+                    android:textStyle="bold|italic" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="70dp">
+
+                            <ImageView
+                                android:id="@+id/button_tea"
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/tea_im" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/tea"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="cursive"
+                            android:text="Tea"
+                            android:textAlignment="center"
+                            android:textColor="#9F3434"
+                            android:textSize="30dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="70dp">
+
+                            <ImageView
+                                android:id="@+id/button_coffee"
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/cofee_im" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/coffee"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="cursive"
+                            android:text="Coffee"
+                            android:textAlignment="center"
+                            android:textColor="#9F3434"
+                            android:textSize="30dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="70dp">
+
+                            <ImageView
+                                android:id="@+id/button_burger"
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/burger_im" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/burgers"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="cursive"
+                            android:text="Burgers"
+                            android:textAlignment="center"
+                            android:textColor="#9F3434"
+                            android:textSize="30dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="70dp">
+
+                            <ImageView
+                                android:id="@+id/button_salad"
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/sal_im" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/salad"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="cursive"
+                            android:text="Salads"
+                            android:textAlignment="center"
+                            android:textColor="#9F3434"
+                            android:textSize="30dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="70dp">
+
+                            <ImageView
+                                android:id="@+id/button_shake"
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/shakes_icon" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/shakes"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="cursive"
+                            android:text="Shakes"
+                            android:textAlignment="center"
+                            android:textColor="#9F3434"
+                            android:textSize="30dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="70dp">
+
+                            <ImageView
+                                android:id="@+id/button_juice"
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/juice_im" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/juices"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="cursive"
+                            android:text="Juices"
+                            android:textAlignment="center"
+                            android:textColor="#9F3434"
+                            android:textSize="30dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="70dp">
+
+                            <ImageView
+                                android:id="@+id/button_soup"
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/soup_im" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/soups"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="cursive"
+                            android:text="Soups"
+                            android:textAlignment="center"
+                            android:textColor="#9F3434"
+                            android:textSize="30dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="10sp">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardCornerRadius="70dp">
+
+                            <ImageView
+                                android:id="@+id/button_pastry"
+                                android:layout_width="200dp"
+                                android:layout_height="150dp"
+                                android:src="@drawable/pastry_im" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:id="@+id/pastry"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="cursive"
+                            android:text="Pastries"
+                            android:textAlignment="center"
+                            android:textColor="#9F3434"
+                            android:textSize="30sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

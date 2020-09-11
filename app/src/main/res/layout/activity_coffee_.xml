@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cofee_back"
+    tools:context=".tea_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#AB514949"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="      Coffee is a fruit!
+
+
+Coffee beans grow on a bush. They are actually the pit of a berry, which makes them a fruit."
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+
+
+        android:textSize="33dp"
+        android:textStyle="bold" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/coffee_list" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs_Activity"
+    android:orientation="vertical"
+    android:background="@drawable/button_gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="About Us"
+        android:textSize="65sp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:paddingTop="20sp"
+        android:text="Cuppa Coffee, a part of Coffee Day Global Limited, is India’s favourite hangout for coffee and conversations. Popularly known as CC, we strive to provide the best experience to our guests. Our coffees are sourced from thousands of small coffee planters, who made us who we are today and we're glad to be a part of their lives. CC to the youth is a “hangout” spot where they meet people, make conversations, and have a whole lot of fun over steaming cups of great coffee.!"
+        android:textColor="#0C0C0C"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:textStyle="bold" />
+</LinearLayout>

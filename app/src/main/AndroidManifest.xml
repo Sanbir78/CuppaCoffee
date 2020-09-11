@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="android.example.cuppacoffee">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hehe"
+        android:label="Cuppa_Coffee"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".password_Activity"></activity>
+        <activity android:name=".logout_Activity" />
+        <activity android:name=".AboutUs_Activity" />
+        <activity android:name=".fav_Activity" />
+        <activity android:name=".cart_Activity" />
+        <activity android:name=".pastry_Activity" />
+        <activity android:name=".soups_Activity" />
+        <activity android:name=".juices_Activity" />
+        <activity android:name=".shakes_Activity" />
+        <activity android:name=".salad_Activity" />
+        <activity android:name=".burger_Activity" />
+        <activity android:name=".coffee_Activity" />
+        <activity android:name=".tea_Activity" />
+        <activity android:name=".OrderPage_Activity" />
+        <activity android:name=".Splash_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup_Activity" />
+        <activity android:name=".Signin_Activity" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

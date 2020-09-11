@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "254789935861",
+    "firebase_url": "https://cuppacoffee-489b1.firebaseio.com",
+    "project_id": "cuppacoffee-489b1",
+    "storage_bucket": "cuppacoffee-489b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254789935861:android:9d17b22f18599a05281bbc",
+        "android_client_info": {
+          "package_name": "android.example.cuppacoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "254789935861-9phbukvmeqh0cemnh37i457ev5t6t170.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.example.cuppacoffee",
+            "certificate_hash": "9cf5a4ed193bba09115b861091cb340d35379635"
+          }
+        },
+        {
+          "client_id": "254789935861-puukuv8u0g77vennr2jq8ksrc698c955.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzt069qSLprST3PKAviyQVxA7J8zMS9vY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "254789935861-puukuv8u0g77vennr2jq8ksrc698c955.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

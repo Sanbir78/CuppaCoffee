@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="12sp"
+    android:minHeight="@android:dimen/app_icon_size">
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="20dp"
+        >
+    <ImageView
+        android:id="@+id/imageVI"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/green_tea"
+       />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        >
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Green Tea"
+            android:paddingTop="20dp"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:textSize="33sp"
+            />
+
+        <TextView
+            android:id="@+id/dollars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="$1.99"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/add_cart"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/add_tocart"
+            android:backgroundTint="#F44336" />
+
+        <Button
+            android:id="@+id/add_fav"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/heart_icon" />
+
+        </LinearLayout>
+    </LinearLayout>
