@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,30 +9,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#AB715F6D" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
-        android:fontFamily="cursive"
-        android:gravity="center"
-        android:text="    They make something from nothing Well, almost nothing. From mere sugar, dough and some colour they can create an array of recipes that will surprise your imagination!"
-        android:textAlignment="center"
-        android:textColor="@android:color/white"
+        android:background="#AB715F6D" >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewpatry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
-
-        android:textSize="30dp"
-        android:textStyle="bold" />
-
-
-    <ListView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/pastry_list" />
     </LinearLayout>
-</RelativeLayout>
+</LinearLayout>

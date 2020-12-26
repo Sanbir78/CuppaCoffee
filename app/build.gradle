@@ -14,6 +14,9 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
+    buildFeatures{
+        viewBinding true
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -32,6 +35,8 @@ dependencies {
     implementation 'com.google.android.gms:play-services-auth:18.1.0'
     testImplementation 'junit:junit:4.13'
     implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview-selection:1.1.0-rc03'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.google.firebase:firebase-analytics:17.5.0'

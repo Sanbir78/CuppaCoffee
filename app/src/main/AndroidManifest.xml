@@ -5,10 +5,11 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/hehe"
-        android:label="Cuppa_Coffee"
+        android:label="Cuppa Coffee"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".password_Activity"></activity>
+        <activity android:name=".DetailActivity"></activity>
+        <activity android:name=".password_Activity" />
         <activity android:name=".logout_Activity" />
         <activity android:name=".AboutUs_Activity" />
         <activity android:name=".fav_Activity" />

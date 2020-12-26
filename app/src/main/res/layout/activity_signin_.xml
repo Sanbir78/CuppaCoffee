@@ -31,8 +31,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="120sp"
                     android:layout_marginTop="20dp"
-                    app:tint="#AA783F"
-                    app:srcCompat="@drawable/res_taurant" />
+                    app:srcCompat="@drawable/res_taurant"
+                    app:tint="#653F15" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -43,7 +43,7 @@
                     android:fontFamily="cursive"
                     android:gravity="center"
                     android:text="Cuppa Coffee"
-                    android:textColor="#CD8E44"
+                    android:textColor="#392712"
                     android:textSize="60sp"
                     android:textStyle="bold" />
 

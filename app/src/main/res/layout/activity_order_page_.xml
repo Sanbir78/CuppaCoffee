@@ -41,12 +41,15 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:cardCornerRadius="60dp">
+                    android:layout_height="260dp"
+                    app:cardCornerRadius="30dp"
+                    android:elevation="5dp"
+                    >
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
                         android:src="@drawable/back_image">
 
                     </ImageView>
@@ -79,12 +82,15 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:cardCornerRadius="70dp">
+                            app:cardCornerRadius="80dp"
+                            android:elevation="5dp">
 
                             <ImageView
                                 android:id="@+id/button_tea"
                                 android:layout_width="200dp"
                                 android:layout_height="150dp"
+                                android:elevation="5dp"
+                                android:scaleType="centerCrop"
                                 android:src="@drawable/tea_im" />
                         </androidx.cardview.widget.CardView>
 
@@ -110,12 +116,15 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:cardCornerRadius="70dp">
+                            app:cardCornerRadius="80dp"
+                            android:elevation="5dp">
 
                             <ImageView
                                 android:id="@+id/button_coffee"
                                 android:layout_width="200dp"
                                 android:layout_height="150dp"
+                                android:elevation="5dp"
+                                android:scaleType="centerCrop"
                                 android:src="@drawable/cofee_im" />
                         </androidx.cardview.widget.CardView>
 
@@ -148,12 +157,15 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:cardCornerRadius="70dp">
+                            app:cardCornerRadius="80dp"
+                            android:elevation="5dp">
 
                             <ImageView
                                 android:id="@+id/button_burger"
                                 android:layout_width="200dp"
                                 android:layout_height="150dp"
+                                android:elevation="5dp"
+                                android:scaleType="centerCrop"
                                 android:src="@drawable/burger_im" />
                         </androidx.cardview.widget.CardView>
 
@@ -179,12 +191,15 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:cardCornerRadius="70dp">
+                            app:cardCornerRadius="80dp"
+                            android:elevation="5dp">
 
                             <ImageView
                                 android:id="@+id/button_salad"
                                 android:layout_width="200dp"
                                 android:layout_height="150dp"
+                                android:elevation="5dp"
+                                android:scaleType="centerCrop"
                                 android:src="@drawable/sal_im" />
                         </androidx.cardview.widget.CardView>
 
@@ -217,12 +232,14 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:cardCornerRadius="70dp">
+                            app:cardCornerRadius="80dp"
+                            android:elevation="5dp">
 
                             <ImageView
                                 android:id="@+id/button_shake"
                                 android:layout_width="200dp"
                                 android:layout_height="150dp"
+                                android:scaleType="centerCrop"
                                 android:src="@drawable/shakes_icon" />
                         </androidx.cardview.widget.CardView>
 
@@ -248,12 +265,14 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:cardCornerRadius="70dp">
+                            app:cardCornerRadius="80dp"
+                            android:elevation="5dp">
 
                             <ImageView
                                 android:id="@+id/button_juice"
                                 android:layout_width="200dp"
                                 android:layout_height="150dp"
+                                android:scaleType="centerCrop"
                                 android:src="@drawable/juice_im" />
                         </androidx.cardview.widget.CardView>
 
@@ -281,17 +300,19 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:orientation="vertical"
-                        android:padding="10sp">
+                        >
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:cardCornerRadius="70dp">
+                            app:cardCornerRadius="80dp"
+                            android:elevation="5dp">
 
                             <ImageView
                                 android:id="@+id/button_soup"
                                 android:layout_width="200dp"
                                 android:layout_height="150dp"
+                                android:scaleType="centerCrop"
                                 android:src="@drawable/soup_im" />
                         </androidx.cardview.widget.CardView>
 
@@ -317,12 +338,14 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:cardCornerRadius="70dp">
+                            app:cardCornerRadius="80dp"
+                            android:elevation="5dp">
 
                             <ImageView
                                 android:id="@+id/button_pastry"
                                 android:layout_width="200dp"
                                 android:layout_height="150dp"
+                                android:scaleType="centerCrop"
                                 android:src="@drawable/pastry_im" />
                         </androidx.cardview.widget.CardView>
 

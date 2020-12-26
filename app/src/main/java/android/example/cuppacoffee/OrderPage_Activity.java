@@ -7,12 +7,20 @@ import androidx.appcompat.view.menu.MenuView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.ClipData;
 import android.content.Intent;
+import android.example.cuppacoffee.Adapters.MainAdapter;
+import android.example.cuppacoffee.Models.MainModel;
+import android.example.cuppacoffee.databinding.ActivityOrderPageBinding;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Adapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,6 +29,9 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class OrderPage_Activity extends AppCompatActivity {
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -28,15 +39,40 @@ public class OrderPage_Activity extends AppCompatActivity {
     ImageView tea, burger, salad, soup, juices, shakes, coffee, pastry;
     TextView tea_t, coffee_t, burger_t, salad_t, shakes_t, pastry_t, juices_t, soup_t;
     private Object OrderPage_Activity;
-
-
+    RecyclerView datalist;
+    List<String>titles;
+    List<Integer>images;
+     GridAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order_page_);
+      /* datalist=findViewById(R.id.datalist);
 
+        titles=new ArrayList<>();
+        images=new ArrayList<>();
+        titles.add("Tea");
+        titles.add("Coffee");
+        titles.add("Burgers");
+        titles.add("Salad");
+        titles.add("Shakes");
+        titles.add("Juices");
+        titles.add("Soups");
+        titles.add("Pastries");
+        images.add(R.drawable.tea_im);
+        images.add(R.drawable.cofee_im);
+        images.add(R.drawable.burger_im);
+        images.add(R.drawable.salads_icon);
+        images.add(R.drawable.shak_im);
+        images.add(R.drawable.juice_im);
+        images.add(R.drawable.soup_im);
+        images.add(R.drawable.pastry_im);
 
-
+        adapter=new GridAdapter(this,titles,images);
+        GridLayoutManager gridLayoutManager= new GridLayoutManager(this,2,GridLayoutManager.VERTICAL,false);
+        datalist.setLayoutManager(gridLayoutManager);
+        datalist.setAdapter(adapter);
+*/
         drawerLayout = findViewById(R.id.drawer_layout);
         navigationView = findViewById(R.id.nav_view);
         toolbar = findViewById(R.id.toolbar);
@@ -61,10 +97,7 @@ public class OrderPage_Activity extends AppCompatActivity {
                                                                          Intent b = new Intent(OrderPage_Activity.this, cart_Activity.class);
                                                                          startActivity(b);
                                                                          break;
-                                                                     case R.id.fav_page:
-                                                                         Intent a = new Intent(OrderPage_Activity.this, fav_Activity.class);
-                                                                         startActivity(a);
-                                                                         break;
+
                                                                      case R.id.logout_page:
                                                                          Intent i = new Intent(OrderPage_Activity.this, logout_Activity.class);
                                                                          startActivity(i);
@@ -75,7 +108,7 @@ public class OrderPage_Activity extends AppCompatActivity {
                                                          });
 
 
-        setupUIViews();
+       setupUIViews();
 
         tea.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -191,7 +224,7 @@ public class OrderPage_Activity extends AppCompatActivity {
         });
     }
 
-    private void setupUIViews() {
+  private void setupUIViews() {
         tea = (ImageView) findViewById(R.id.button_tea);
         coffee = (ImageView) findViewById(R.id.button_coffee);
         burger = (ImageView) findViewById(R.id.button_burger);
@@ -215,6 +248,22 @@ public class OrderPage_Activity extends AppCompatActivity {
         } else {
             super.onBackPressed();
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_myorders, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.order_cart:
+                startActivity(new Intent(OrderPage_Activity.this,cart_Activity.class));
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
 
