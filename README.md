@@ -8,8 +8,7 @@ Examples of base drinks/snacks offered are tea, coffee, burgers, deserts, juices
 ## Screenshots
 
 ### Home Page
-
-![Screenshot_2020-09-11-14-01-13-76](https://user-images.githubusercontent.com/68576456/92919697-c6eae580-f452-11ea-9722-bb295415857e.jpg)    ![Screenshot_2020-09-11-14-01-37-39](https://user-images.githubusercontent.com/68576456/92919699-c81c1280-f452-11ea-82de-efd66010ab01.jpg)       ![Screenshot_2020-09-11-14-01-41-75](https://user-images.githubusercontent.com/68576456/92919705-c9e5d600-f452-11ea-8400-75f211d0253b.jpg)
+![Screenshot_2020-12-30-23-50-42-32](https://user-images.githubusercontent.com/68576456/103374233-0a01bf00-4afd-11eb-8986-c06619cdd26c.jpg) ![Screenshot_2020-12-30-23-50-37-97](https://user-images.githubusercontent.com/68576456/103374644-1e928700-4afe-11eb-8578-8f7578244ccb.jpg)  ![Screenshot_2020-12-30-23-51-05-31](https://user-images.githubusercontent.com/68576456/103374567-eab76180-4afd-11eb-8968-d61ec1c8968d.jpg)   ![Screenshot_2020-12-30-23-51-48-56](https://user-images.githubusercontent.com/68576456/103374519-cb203900-4afd-11eb-9b3b-44fb2171bc30.jpg)
 
 ### Login and Registration Screen
 
@@ -17,7 +16,3 @@ Examples of base drinks/snacks offered are tea, coffee, burgers, deserts, juices
 ![Screenshot_2020-09-11-14-03-11-84](https://user-images.githubusercontent.com/68576456/92921503-f64f2180-f455-11ea-8919-028cfa8190ea.jpg) 
 
 ###  Food Detail Section
-
-![Screenshot_2020-12-30-23-50-42-32](https://user-images.githubusercontent.com/68576456/103373654-82678080-4afb-11eb-82e9-44ca55eda1e6.jpg)  ![Screenshot_2020-12-30-23-50-37-97](https://user-images.githubusercontent.com/68576456/103373815-f4d86080-4afb-11eb-98ef-2714c0151f30.jpg)  ![Screenshot_2020-12-31-00-03-09-36](https://user-images.githubusercontent.com/68576456/103373822-fa35ab00-4afb-11eb-9473-d73f799138ed.jpg)  ![Screenshot_2020-12-30-23-51-05-31](https://user-images.githubusercontent.com/68576456/103373837-0883c700-4afc-11eb-8b10-87e43361233b.jpg)  ![Screenshot_2020-12-30-23-50-56-11](https://user-images.githubusercontent.com/68576456/103373841-0cafe480-4afc-11eb-8e6a-bd48605fd0e8.jpg)  ![Screenshot_2020-12-30-23-51-48-56](https://user-images.githubusercontent.com/68576456/103373867-19343d00-4afc-11eb-94e6-98cc68179ca8.jpg)  ![Screenshot_2020-12-30-23-51-36-59](https://user-images.githubusercontent.com/68576456/103373890-281aef80-4afc-11eb-9d3a-80c72e3c3ccf.jpg)  ![Screenshot_2020-12-30-23-50-48-70](https://user-images.githubusercontent.com/68576456/103373899-2e10d080-4afc-11eb-9997-1946aabc6c04.jpg)
-
-
