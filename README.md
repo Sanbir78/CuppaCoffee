@@ -18,13 +18,6 @@ Examples of base drinks/snacks offered are tea, coffee, burgers, deserts, juices
 
 ###  Food Detail Section
 
-![Screenshot_2020-12-30-23-50-42-32](https://user-images.githubusercontent.com/68576456/103373654-82678080-4afb-11eb-82e9-44ca55eda1e6.jpg)
-![Screenshot_2020-12-30-23-50-37-97](https://user-images.githubusercontent.com/68576456/103373815-f4d86080-4afb-11eb-98ef-2714c0151f30.jpg)
-![Screenshot_2020-12-31-00-03-09-36](https://user-images.githubusercontent.com/68576456/103373822-fa35ab00-4afb-11eb-9473-d73f799138ed.jpg)
-![Screenshot_2020-12-30-23-51-05-31](https://user-images.githubusercontent.com/68576456/103373837-0883c700-4afc-11eb-8b10-87e43361233b.jpg)
-![Screenshot_2020-12-30-23-50-56-11](https://user-images.githubusercontent.com/68576456/103373841-0cafe480-4afc-11eb-8e6a-bd48605fd0e8.jpg)
-![Screenshot_2020-12-30-23-51-48-56](https://user-images.githubusercontent.com/68576456/103373867-19343d00-4afc-11eb-94e6-98cc68179ca8.jpg)
-![Screenshot_2020-12-30-23-51-36-59](https://user-images.githubusercontent.com/68576456/103373890-281aef80-4afc-11eb-9d3a-80c72e3c3ccf.jpg)
-![Screenshot_2020-12-30-23-50-48-70](https://user-images.githubusercontent.com/68576456/103373899-2e10d080-4afc-11eb-9997-1946aabc6c04.jpg)
+![Screenshot_2020-12-30-23-50-42-32](https://user-images.githubusercontent.com/68576456/103373654-82678080-4afb-11eb-82e9-44ca55eda1e6.jpg)![Screenshot_2020-12-30-23-50-37-97](https://user-images.githubusercontent.com/68576456/103373815-f4d86080-4afb-11eb-98ef-2714c0151f30.jpg)![Screenshot_2020-12-31-00-03-09-36](https://user-images.githubusercontent.com/68576456/103373822-fa35ab00-4afb-11eb-9473-d73f799138ed.jpg)![Screenshot_2020-12-30-23-51-05-31](https://user-images.githubusercontent.com/68576456/103373837-0883c700-4afc-11eb-8b10-87e43361233b.jpg)![Screenshot_2020-12-30-23-50-56-11](https://user-images.githubusercontent.com/68576456/103373841-0cafe480-4afc-11eb-8e6a-bd48605fd0e8.jpg)![Screenshot_2020-12-30-23-51-48-56](https://user-images.githubusercontent.com/68576456/103373867-19343d00-4afc-11eb-94e6-98cc68179ca8.jpg)![Screenshot_2020-12-30-23-51-36-59](https://user-images.githubusercontent.com/68576456/103373890-281aef80-4afc-11eb-9d3a-80c72e3c3ccf.jpg)![Screenshot_2020-12-30-23-50-48-70](https://user-images.githubusercontent.com/68576456/103373899-2e10d080-4afc-11eb-9997-1946aabc6c04.jpg)
 
 
