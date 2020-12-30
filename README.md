@@ -14,7 +14,7 @@ Examples of base drinks/snacks offered are tea, coffee, burgers, deserts, juices
 ### Login and Registration Screen
 
 ![Screenshot_2020-09-11-14-02-50-52](https://user-images.githubusercontent.com/68576456/92921205-75902580-f455-11ea-9e7b-f3e0985d64f0.jpg)  ![Screenshot_2020-09-11-14-09-44-93](https://user-images.githubusercontent.com/68576456/92921276-98bad500-f455-11ea-8516-cc7f8d648b11.jpg)   ![Screenshot_2020-09-11-14-02-44-33](https://user-images.githubusercontent.com/68576456/92921345-b5efa380-f455-11ea-982f-dec19233b97f.jpg)
-![Screenshot_2020-09-11-14-03-11-84](https://user-images.githubusercontent.com/68576456/92921503-f64f2180-f455-11ea-8919-028cfa8190ea.jpg)   ![Screenshot_2020-09-11-14-02-28-23](https://user-images.githubusercontent.com/68576456/92921505-f7804e80-f455-11ea-93f1-3dea332c646c.jpg)
+![Screenshot_2020-09-11-14-03-11-84](https://user-images.githubusercontent.com/68576456/92921503-f64f2180-f455-11ea-8919-028cfa8190ea.jpg) 
 
 ###  Food Detail Section
 
