@@ -8,7 +8,7 @@ Examples of base drinks/snacks offered are tea, coffee, burgers, deserts, juices
 ## Screenshots
 
 ### Home Page
-![Screenshot_2020-12-30-23-50-42-32](https://user-images.githubusercontent.com/68576456/103374233-0a01bf00-4afd-11eb-8986-c06619cdd26c.jpg) ![Screenshot_2020-12-30-23-50-37-97](https://user-images.githubusercontent.com/68576456/103374644-1e928700-4afe-11eb-8578-8f7578244ccb.jpg)  ![Screenshot_2020-12-30-23-51-05-31](https://user-images.githubusercontent.com/68576456/103374567-eab76180-4afd-11eb-8968-d61ec1c8968d.jpg)   ![Screenshot_2020-12-30-23-51-48-56](https://user-images.githubusercontent.com/68576456/103374519-cb203900-4afd-11eb-9b3b-44fb2171bc30.jpg)
+
 
 ### Login and Registration Screen
 
