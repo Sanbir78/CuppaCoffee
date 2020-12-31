@@ -4,7 +4,8 @@
 A simple attempt to make an android application for a coffee shop named "Cuppa Coffee" . With use of features such as Registration, Login, Forgot Password, SignOut, Change Password and Email Verification to help you build an effective Authentication System . 
 
 ## Features
-1. Authentication System using Firebase
+
+1. Firebase Authentication System 
 2. Navigation View
 3. Card View
 4. Recycler View
